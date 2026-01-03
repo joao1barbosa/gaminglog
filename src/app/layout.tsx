@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GamingLog",
-  description: "An interactive game progression guide that suggests real-time \"next steps\" for players. It's your full-scale digital strategy companion.",
+  title: 'GamingLog - Game Progression Tracker',
+  description: 'Your second screen companion for tracking game objectives and progress',
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-neutral-200`}
       >
         {children}
       </body>
