@@ -1,3 +1,2 @@
-# soulslike-checklist
-
-#### [Support Repository](https://github.com/joao1barbosa/souls-bosses-scraper)
+# GamingLog
+GamingLog is a smart, interactive progression tracker designed to replace traditional static walkthroughs. It provides a curated, spoiler-free "roadmap" for complex games, suggesting your next objectives based on your current achievements—bringing the classic 2000s strategy guide experience into a modern, web-based platform.
