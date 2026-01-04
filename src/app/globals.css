@@ -44,7 +44,7 @@
   --card-foreground: oklch(0.27 0.00 0);
 
   /* Primary */
-  --primary: oklch(0.75 0.12 65);
+  --primary: oklch(49.322% 0.18096 258.149);
   --primary-foreground: oklch(0.145 0 0);
 
   --secondary: oklch(0.25 0 0);
@@ -62,6 +62,10 @@
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.75 0.12 65);
+}
+
+.theme-dark-souls-1 {
+  --primary: oklch(0.75 0.12 65);
 }
 
 @layer base {

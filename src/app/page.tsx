@@ -5,12 +5,12 @@ export default async function Home() {
 
   const { data: games, error } = await supabase
     .from('games')
-    .select('title, slug, cover_url')
+    .select('title, slug, cover_url');
 
   if (error) {
     return <div>Erro ao carregar jogos: {error.message}</div>
   }
-  
+
   return (
     <div className="flex min-h-screen items-center justify-center font-sans">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-32 px-16 bg-foreground sm:items-start">
@@ -18,7 +18,7 @@ export default async function Home() {
         <div className="grid grid-cols-1 gap-4 w-full sm:grid-cols-2">
           {games?.map((game) => (
             <div key={game.slug} className="border p-4 rounded-lg shadow-sm">
-              <h2 className="font-bold">{game.title}</h2>
+              <h2 className="font-bold text-primary">{game.title}</h2>
               <p className="text-sm text-zinc-500">{game.slug}</p>
             </div>
           ))}
